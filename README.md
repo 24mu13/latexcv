@@ -1,30 +1,37 @@
-
 #Ritesh 
 #Source: https://www.overleaf.com/latex/templates/jan-kusters-modern-looking-cv/xtmmqtxpkvdh#.WHGDjXeZOb8
 
 Note: For any issues, contact me via [info@jankuester.com](mailto:info@jankuester.com)
-
-latexcv
 =======
 
-Introduction
-------------
 
-A collection of simple and easy to use, yet powerful LaTex templates for CV and resume.
+# latexcv - LaTex CV and Resume Collection
+
+## Summary
+
+A collection of simple and easy to use, yet powerful LaTex templates for CV and resume. All of them are self designed and self implemented and not copied from template collections.
+
+If there are any problems, please create an issue. I will fix it asap. Contributors are very welcome.
+
+[See the preview / example outputs](https://github.com/jankapunkt/latexcv#gallery)
 
 
-Where to download?
-------------------
+## How to build?
 
 You can build them from this source. In each folder is a main.tex, which needs to be compiled by your LaTex distribution. The main.pdf shows the example output.
 
+There are just few requirements:
 
-License
--------
+- package tex-live distribution
+- package tex-live fonts
+- (in miktex all requirements should be included at compile-time)
+- run the main.tex and build with a (pdf-) LaTeX environment of your choice
+
+## License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Jan Küster
+Copyright (c) 2014-2017 Jan Küster
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -42,15 +49,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-Build instructions
-------------------
+## Gallery
 
-- You need the tex-live distribution and tex-live fonts to build.
-- Run the main.tex and build with a LaTeX environment of your choice.
+### Classic
 
+![Modern cv preview image](http://jankuester.com/wp-content/uploads/main_preview.png "Modern CV example preview")
 
-Credits
--------
+### Modern
 
-Jan Küster
-www.jankuester.com
+![Modern cv preview image](http://jankuester.com/wp-content/uploads/main_preview-1.png "Modern CV example preview")
+
+### Infographics
+
+![Infographics preview image](http://jankuester.com/wp-content/uploads/infographics-cv.png "Infographics CV example preview")
